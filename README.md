@@ -1,426 +1,210 @@
-# Adil Mustafa — Portfolio & Resume (README)
+<!-- Responsive Centered Image -->
+<p align="center">
+  <img src="https://user-images.githubusercontent.com/74038190/219923809-b86dc415-a0c2-4a38-bc88-ad6cf06395a8.gif" alt="Profile Animation" style="width: 80%; max-width: 599px; height: auto;" />
+</p>
 
-**Headline:** Full Stack & Mobile Engineer · React Native · MERN · Next.js  
+<h1 align="center">Hi, I'm Adil Mustafa 👋</h1>
 
-**Location:** Pakistan  
+<p align="center">
+  <b>Full Stack Developer</b> · React Native · Next.js · Node.js · TypeScript
+</p>
 
-**Contact:** *(email · phone + country code · LinkedIn · GitHub — do not commit secrets)*  
-
----
-
-## How I work (role)
-
-**Primary builder:** I **designed and implemented these products end-to-end** as the **solo lead developer** — architecture, mobile/web clients, APIs, data layer, integrations, and deployment where applicable.
-
-**Contributors:** On **some** repositories, **other developers or collaborators** also committed code (features, reviews, or maintenance). Where that applies, I remained the **main owner** of delivery; you can list names per repo in interviews if needed.
-
----
-
-## Professional summary
-
-Engineer with a track record of shipping **production mobile apps (React Native / Expo)** and **full-stack web systems** (Next.js, Vite, Node, NestJS, Django). Strong in **REST APIs**, **auth** (JWT, OTP, NextAuth, Supabase), **real-time** (WebSockets, Socket.io, Channels), **payments** (Stripe and others), **object storage** (S3, B2, Cloudinary), and **ops** (PM2, nginx, Docker, AWS-style deploy scripts).
-
-Known for **fixing production defects** (ORM/query bugs, auth edge cases, chart/math errors), **product-minded engineering** (e.g. API-first flows instead of brittle `mailto:`-only UX), and **multi-app monorepos** (marketplace + admin + retail, multi-tenant SaaS, enterprise surfaces).
+<p align="center">
+  I build production-ready mobile and web applications end-to-end: product architecture, frontend, backend APIs, database design, integrations, testing, and deployment.
+</p>
 
 ---
 
-## Core technical skills
+## About me
 
-| Area | Technologies |
-|------|----------------|
-| **Languages** | JavaScript, TypeScript, Python, SQL, Dart (Flutter) |
-| **Web** | React, Next.js (App Router), Vite, Tailwind, Radix/shadcn, MUI, Ant Design |
-| **Mobile** | React Native (CLI & Expo), Expo Router, navigation, performance |
-| **Backend** | Express, NestJS, Django, Flask; REST; OpenAPI/Swagger; Joi/Zod |
-| **Data** | PostgreSQL, MongoDB, Prisma, Drizzle, Supabase, Redis (where used) |
-| **Realtime** | Socket.io, WebSockets, Django Channels |
-| **Integrations** | Stripe, PayPal, OAuth/Facebook, Firebase, OneSignal, Livepeer, AI APIs, Pinecone (where used) |
-| **Storage** | AWS S3, Backblaze B2, Cloudinary, Multer uploads |
-| **Device** | BLE, native modules, maps, push notifications |
-| **Quality & ops** | Playwright, Jest/Node tests, Docker, PM2, nginx, ECR/ECS-style scripts |
+- Full Stack Developer focused on modern, scalable apps across mobile and web.
+- Strong hands-on delivery in React Native, React/Next.js, Node.js/Express, and TypeScript.
+- Experienced in shipping complete products solo, with contributors on some repos.
+- Practical, product-minded approach: reliability first, clean UX, maintainable systems.
 
 ---
 
-## A. Early / portfolio narrative projects *(mobile & full stack)*
+## Tech stack
 
-*These are product stories you’ve described in your career narrative; align wording with what you shipped.*
+### Frontend & mobile
+- React, React Native, Next.js, Vite, Tailwind CSS
+- Expo, Expo Router, React Navigation
+- Ant Design, MUI, Radix, shadcn/ui
 
-### A1. Voice Changer (BLE)
+### Backend & APIs
+- Node.js, Express.js, NestJS, Django, Flask
+- REST APIs, Swagger/OpenAPI, Joi/Zod validation
 
-| Field | Detail |
-|-------|--------|
-| **Type** | Real-time voice processing mobile app over **Bluetooth Low Energy** |
-| **What you built** | BLE device workflow, **native module** hook for audio processing, effect pipeline |
-| **Features** | Alien / child voice presets; speed (fast/slow); **only one effect active** at a time with clean switching |
-| **Stack** | React Native, BLE (e.g. react-native-bluetooth-plx family), native modules |
+### Database & data layer
+- MongoDB, PostgreSQL, Supabase, Redis
+- Prisma ORM, Drizzle ORM, Mongoose
 
-### A2. SkillSphere Hub (job matching)
+### Integrations & infra
+- Stripe, PayPal, Firebase, OneSignal, OAuth/Facebook
+- AWS S3, Backblaze B2, Cloudinary, Livepeer
+- Docker, PM2, nginx, AWS-style deployment workflows
 
-| Field | Detail |
-|-------|--------|
-| **Type** | Job marketplace + operations |
-| **What you built** | Mobile app + APIs + **admin dashboard** |
-| **Features** | Jobs, applications, **geo-location**, **notifications**, issue reporting; admin: users, listings, analytics |
-| **Stack** | React Native, Node.js, MongoDB |
-
-### A3. Metropolitan Management System
-
-| Field | Detail |
-|-------|--------|
-| **Type** | Civic **issue reporting** for citizens vs response teams |
-| **What you built** | Full MERN application + **SPMP** (software project management plan) documentation |
-| **Features** | Report issues, locations, status tracking |
-| **Stack** | MERN |
-
-### A4. Mood Checker App (MCA)
-
-| Field | Detail |
-|-------|--------|
-| **Type** | Mood tracking / engagement |
-| **What you built** | **SDD** (software design document), architecture, app implementation |
-| **Features** | Mood logging, engagement/analytics direction |
-| **Stack** | React Native, Node.js |
-
-### A5. AI + database hybrid system
-
-| Field | Detail |
-|-------|--------|
-| **Type** | Responses that blend **LLM output** with **database-backed** answers |
-| **What you built** | Backend orchestration, secure data paths, contextual retrieval |
-| **Stack** | Node.js, AI provider APIs, vector DB (e.g. Pinecone) where integrated |
-
-### A6. AWS S3 file upload system
-
-| Field | Detail |
-|-------|--------|
-| **Type** | Scalable **image/file upload** |
-| **What you built** | Upload APIs (Multer or equivalent), S3 integration, **bucket policies** (public/private) |
-| **Stack** | Node.js, AWS S3 |
-
-### A7. EasyStream — backend & deployment
-
-| Field | Detail |
-|-------|--------|
-| **Type** | Streaming product **backend + DevOps** |
-| **What you built** | Environment-based **staging/production**, **nginx**, **PM2**, debugging (e.g. Facebook/OAuth issues) |
-| **Stack** | Node.js, MongoDB, Socket.io, Livepeer-related stack, Docker |
-
-### A8. Automated testing (task / todo flows)
-
-| Field | Detail |
-|-------|--------|
-| **Type** | E2E regression suite |
-| **What you built** | **Playwright** tests: create task, toggle complete, delete |
-| **Stack** | Playwright |
+### Testing & quality
+- Playwright, Jest, Node test runner
+- ESLint, Prettier, Husky, CI-friendly scripts
 
 ---
 
-## B. Repository projects — full detail *(solo lead; contributors on some repos)*
+## Featured projects
 
-Below: **folder path**, **product summary**, **architecture**, **stack**, **notable capabilities** (from README / `package.json`).  
+### 1) 360 Living
+**Type:** Property and school housing platform (admin + school portals)  
+**Stack:** Next.js, React, TanStack Query, Ant Design, Node.js, Express, Prisma, JWT, Swagger  
+**Live URLs:**
+- **Web (production):** [https://360living.ae](https://360living.ae) · **App:** [https://app.360living.ae](https://app.360living.ae)
+- **Web (staging):** [https://staging-app.360living.ae](https://staging-app.360living.ae)
+- **API (production):** [https://api.360living.ae/api/v1](https://api.360living.ae/api/v1)
+- **API (staging):** [https://staging-api.360living.ae/api/v1](https://staging-api.360living.ae/api/v1)
+- **Swagger (production):** [https://api.360living.ae/api/v1/docs/#](https://api.360living.ae/api/v1/docs/#)
+- **Swagger (staging):** [https://staging-api.360living.ae/api/v1/docs/#](https://staging-api.360living.ae/api/v1/docs/#)
+**Highlights:**
+- Built and maintained school/admin workflows for apartments, leases, and financial reporting.
+- Fixed Prisma/API issues causing production 500s on school/apartment endpoints.
+- Reworked request flow to API-first pattern for better reliability and traceability.
+- Hardened OTP/auth and chart rendering edge cases.
 
----
+### 2) AgriMarket Connect (ATI)
+**Type:** Agricultural marketplace + multi-admin ecosystem  
+**Stack:** NestJS, Prisma, PostgreSQL, WebSockets, Vite, React, TypeScript, MUI  
+**Highlights:**
+- Single backend serving marketplace + admin + retail surfaces.
+- Role-aware frontend behavior and structured API architecture.
+- Real-time and API-powered flows with scalable module boundaries.
 
-### B1. 360 Living — `360-living/`
+### 3) BridgeBond
+**Type:** Multi-tenant enterprise management platform  
+**Stack:** Node.js, Express, MongoDB, React/Vite, Stripe, OpenAI, Pinecone, S3, Firebase  
+**Live URLs:**
+- **Admin (production):** [https://admin.bridgebond.ai](https://admin.bridgebond.ai)
+- **User (production):** [https://user.bridgebond.ai](https://user.bridgebond.ai)
+- **Super Admin (production):** [https://super-admin.bridgebond.ai](https://super-admin.bridgebond.ai)
+- **API (production):** [https://api.bridgebond.ai/v1](https://api.bridgebond.ai/v1)
+- **Staging admin:** [https://staging-admin.bridgebond.ai](https://staging-admin.bridgebond.ai)
+- **Staging user:** [https://staging-user.bridgebond.ai](https://staging-user.bridgebond.ai)
+- **Staging API:** [https://staging-api.bridgebond.ai/v1](https://staging-api.bridgebond.ai/v1)
+**Highlights:**
+- Organization hierarchy, RBAC, OTP auth, AI-assisted workflows.
+- Multiple frontends (web/client admin/super admin) over one backend core.
+- Integration-heavy platform delivery and maintenance.
 
-| Field | Detail |
-|-------|--------|
-| **Product** | Property / school **housing platform** (Dubai-market positioning): admin + school portals, apartments, leases, invoices, maintenance, community, content/blog |
-| **Architecture** | Monorepo: **`360-living-web`** (Next.js) + **`360-living-backend`** (Express API ` /api/v1`) |
-| **Web stack** | Next.js 16, App Router, React, **TanStack Query**, **Ant Design**, Formik, Zustand, Tailwind tooling, ESLint/Prettier/Husky |
-| **API stack** | Node (ESM), Express, **Prisma**, **Passport JWT**, Joi, Winston, **Swagger** `/api/v1/docs`, PM2, Docker, nginx examples |
-| **Domains** | Schools, apartments, leases, financial invoices, **apartment-requests** (persisted), reports, auth (incl. OTP/forgot password), content endpoints |
-| **Delivery** | AWS Amplify-oriented web builds; env-specific backend (`development` / `staging` / `production`) |
-| **Examples of engineering** | Prisma fixes for **500s** on school/apartment list & detail; **API-first** apartment requests + Gmail fallback vs `mailto:`-only; OTP UI hardening; chart **NaN/single-point** fixes; deploy script patterns |
+### 4) Babu ISP
+**Type:** Multi-tenant ISP SaaS (web + mobile)  
+**Stack:** Next.js, React, Prisma, Supabase, Expo, React Native, Playwright  
+**Live URL:** [https://babu-isp.vercel.app/](https://babu-isp.vercel.app/)
+**Highlights:**
+- Designed web API as the single DB-touching layer.
+- Mobile app consumes APIs cleanly without direct DB coupling.
+- Test coverage with API tests and E2E automation.
 
----
-
-### B2. AgriMarket Connect (ATI) — `agri-market/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Agricultural marketplace** connecting producers and clients (regional / Cameroon focus in docs); separate **staff/retail** consoles |
-| **Architecture** | One **NestJS API** + **three React+Vite** frontends |
-| **Backend** | **NestJS 10**, **Prisma**, **PostgreSQL**, **WebSockets** (Socket.io), JWT refresh, **Swagger** `/api`, throttling, scheduling, Google Generative AI dep, Jest |
-| **WebApp** (`WebApp Repo /`) | Vite, React, TypeScript, Tailwind, **HashRouter**, **socket.io-client**, PWA plugin, guests + CLIENT + PRODUCER; **blocks staff roles** from consumer app |
-| **Admin Panel** | Vite, React, **MUI** (Minimal kit base) |
-| **Retail admin** | Vite, React (retail operations) |
-| **Pattern** | Clean architecture layers: domain → application → infrastructure → controllers |
-
----
-
-### B3. BridgeBond — `BridgeBond/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Enterprise** org hierarchy (orgs → departments → users), **multi-tenant**, RBAC, **OTP** auth, **AI chat**, billing/HRIS/notifications docs |
-| **Backend** (`bridge-bond-backend`) | **Express**, **MongoDB/Mongoose 8**, JWT, Joi, **Stripe**, **OpenAI**, **Pinecone**, **AWS S3**, **Merge** API, **Firebase Admin**, Cloudinary, Nodemailer, **OneSignal**, Swagger, Winston, **Jest**, PM2, Docker scripts |
-| **bridgebond_web** | Vite, **React 19**, **Tailwind 4**, Ant Design, TanStack Query, Firebase client, i18n, react-hook-form, zod |
-| **bridgebond_client_admin** | Vite, React 19, Stripe.js, ApexCharts, OneSignal, Headless UI |
-| **bridgebond_super_Admin** | Vite, React 19, Ant Design, ApexCharts, TanStack Query, Tailwind 3 |
-| **Other** | `bridgebond_landing_page`, Firebase **functions** subpackage |
-
----
-
-### B4. EasyStream — `easy-stream/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Simulcast** streaming (e.g. YouTube + Facebook); webcam/OBS-style flows |
-| **Mobile** (`easystream-app`) | **Expo**, **Expo Router**, React Native, **EAS** build scripts, dev client, native Android/iOS workflows |
-| **Backend** (`easystream-backend`) | Node (ESM), **Express**, **MongoDB**, **Socket.io**, **Livepeer**, OAuth for platforms, stream CRUD, analytics hooks, PM2 deploy scripts |
-
----
-
-### B5. Freedoms AI — `freedoms/freedoms-webapp/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **AI journaling** product: notes, **chat**, boards/tasks, projects, automations, **subscription** gating |
-| **Stack** | **Next.js 14**, React 18, TypeScript, **Supabase** (Auth, Postgres, RPCs), **Stripe**, **Radix**, **TipTap**, **xyflow**, **dnd-kit**, Markmap, Mixpanel, Vercel Analytics, OneSignal, wavesurfer, TikTok server route patterns |
-| **Docs** | Large `docs/`: routes, OpenAPI subset, RLS/RPC, SOW traceability |
+### 5) EasyStream
+**Type:** Multi-platform live streaming solution  
+**Stack:** Expo/React Native, Node.js, Express, MongoDB, Socket.io, Livepeer, PM2/nginx  
+**Highlights:**
+- End-to-end streaming platform setup (app + backend + deployment workflows).
+- Environment-based deployment and production debugging.
 
 ---
 
-### B6. Babu ISP — `Babu/`
+## Full project catalog
 
-| Field | Detail |
-|-------|--------|
-| **Product** | **Multi-tenant ISP SaaS**: super admin, per-tenant admin/staff, customers; plans with customer limits |
-| **Web** (`web/`) | **Next.js 15**, **React 19**, **Prisma 6**, **Supabase** DB, **Ant Design**, TanStack Query, **Google GenAI**, Cloudinary, Firebase, Zod+Formik, Recharts, **Playwright** + **Node API tests** — **only** service touching DB |
-| **Mobile** (`mobile/`) | **Expo 52**, Expo Router, TanStack Query, Formik, **OneSignal**, Paper, charts — **HTTP to web API only** |
+> Lead builder across these projects; some repositories also include collaborator contributions.
 
----
-
-### B7. ArbShark — `ARBShark/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Sports betting arbitrage / +EV** domain: events, markets (odds JSON), opportunities |
-| **Backend** (`ArbShark-Backend-main`) | **Express**, **Prisma**, **Supabase Postgres**, JWT, bcrypt, Joi, Helmet, rate limit, Jest, **Docker/ECR/ECS** npm scripts |
-| **Frontend** (`ArbShark-Frontend`) | **Vite**, React, **shadcn/Radix**, TanStack Query, **Supabase**, **Stripe** |
-
----
-
-### B8. Sayber — `Sayber-Ai/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Healthcare/FHIR-oriented** backend (HIPAA mentioned in README) |
-| **sayber-ai-backend** | **TypeScript**, **Express**, **Drizzle**, **PostgreSQL**, **Supabase** client, **OpenAI**, Swagger UI, sessions, multer |
-| **Sayber_Windsurf** | Monorepo with `backend/` + root tooling |
-| **Sayber_Windsurf_App** | **Gemfile** (Ruby) + **package.json** (JS/RN ecosystem) — mobile or hybrid shell |
-
----
-
-### B9. Tennis trainer — `Tennis-trainer/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Video analysis** API + mobile client |
-| **tennis-trainer-live** | **Python Flask**, **Docker Compose**, **Redis**, **PM2** inside container, **YOLO/MediaPipe**-class README, deploy scripts |
-| **tennis-mobile-app** | **Expo 52**, Expo Router, **Gluestack**, **expo-video**, Jest |
+| Project | What it is | Core stack |
+|---|---|---|
+| **360 Living** | Property/school housing platform | Next.js, React, Node.js, Express, Prisma |
+| **AgriMarket Connect** | Marketplace + admin + retail apps | NestJS, Prisma, PostgreSQL, Vite/React |
+| **BridgeBond** | Enterprise multi-tenant platform | Express, MongoDB, React/Vite, Stripe, OpenAI |
+| **EasyStream** | Streaming app + backend | Expo/RN, Express, MongoDB, Socket.io |
+| **Freedoms AI** | AI journaling and productivity SaaS | Next.js, Supabase, Stripe, Radix |
+| **Babu ISP** | Multi-tenant ISP system (web/mobile) | Next.js, Prisma, Supabase, Expo |
+| **ArbShark** | Sports arbitrage platform | Express, Prisma, Supabase, Vite/React |
+| **Sayber** | Healthcare/FHIR-oriented backend system | TypeScript, Express, Drizzle, PostgreSQL |
+| **Tennis Trainer** | Video analysis API + mobile app | Flask, Docker, Redis, Expo |
+| **Hydra LAN Control** | LAN dashboard/control app | Next.js, SQLite, Socket.io |
+| **pdf-medusa** | Headless commerce backend + storefront | Medusa, Next.js, Stripe/PayPal |
+| **Fruitful Hickory** | Expo app with maps + DB workflows | Expo, Drizzle, Supabase, Mapbox |
+| **Backblaze Backend** | Video/rushes backend | Express, Backblaze B2, FFmpeg |
+| **Barbershop Level Up** | Salon management web app | Next.js, NextAuth, MongoDB |
+| **Claude Telegram Bot repo** | Next app + mobile wrapper + PDF tooling | Next.js, Prisma, Capacitor |
+| **Crane / Fortix** | White-label Expo mobile apps | Expo, RN Firebase |
+| **Atlas / AtlasEmployee** | Dual React Native app setup | React Native, Firebase, Notifee |
+| **GetIn Scanner** | Scanner app + TS backend | Flutter, Express, Prisma |
+| **Workli** | Expo app with maps/notifications | Expo, Supabase |
+| **LabelMates** | Retail/scanning-oriented SPA | Vite, React, TypeScript, Supabase |
+| **AUOST** | Flutter + React codebases | Flutter, Vite/React |
+| **Plateforme de recrutement** | Recruitment platform | Django, Channels, Redis, Celery |
+| **AdArt / FineArt** | RN frontend + Django backend | React Native, Django |
+| **Kinetic Koach** | Flutter app + functions | Flutter, Firebase |
+| **MyBackend** | Node/Express backend starter | Express, MongoDB |
+| **Next.js Boilerplate** | Opinionated starter project | Next.js, React, TypeScript |
+| **demo** | Next + Drizzle app | Next.js, Drizzle, PostgreSQL |
 
 ---
 
-### B10. Hydra LAN control — `Hydra/hydra-lan-control-web-app/`
+## Additional engineering capabilities
 
-| Field | Detail |
-|-------|--------|
-| **Product** | LAN/control-style **web dashboard** (local server pattern) |
-| **Stack** | **Next.js 16**, **React 19**, **Tailwind 4**, Radix, **better-sqlite3**, bcrypt, **jose**, **Socket.io** + client, **HLS.js**, Recharts, Zod, custom **`server.js`** entry |
-
----
-
-### B11. pdf-medusa — `pdf-medusa/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Headless commerce** (Medusa) + Next storefront |
-| **pdf_backend** | **Medusa 2.x** framework, **TypeScript**, **AWS S3**, **PayPal** SDK, OpenTelemetry/pg, Jest |
-| **pdf_frontend** | **Next.js** starter storefront, **MUI**, **Meilisearch** instant search, **Stripe**, **PayPal**, Medusa JS SDK |
+- BLE-based mobile workflows and native module integration.
+- Secure authentication and role-based access control.
+- API design for multi-tenant systems and admin portals.
+- Cloud media/file pipelines and deployment automation.
+- Production debugging and stability improvements under live constraints.
 
 ---
 
-### B12. Fruitful Hickory — `fruitful-hickory/`
+## Live deployments & docs
 
-| Field | Detail |
-|-------|--------|
-| **Product** | **Expo** app with **maps** and rich DB scripting |
-| **Stack** | **Expo ~54**, React Navigation, **Drizzle** + drizzle-kit, **Supabase**, **Mapbox** (`@rnmapbox/maps`), **PostGIS**-related SQL npm scripts, TanStack Query, Neon serverless driver |
+Links below are taken from this product’s **staging/production configuration** and **deploy documentation** (nginx, env examples, web client config).
 
----
+### 360 Living
 
-### B13. Backblaze video backend — `backblaze-backend/`
+| Environment | Frontend | API base | API docs (Swagger) |
+|-------------|----------|----------|-------------------|
+| **Production** | [360living.ae](https://360living.ae) · [app.360living.ae](https://app.360living.ae) | [api.360living.ae/api/v1](https://api.360living.ae/api/v1) | [docs](https://api.360living.ae/api/v1/docs/#) |
+| **Staging** | [staging-app.360living.ae](https://staging-app.360living.ae) | [staging-api.360living.ae/api/v1](https://staging-api.360living.ae/api/v1) | [docs](https://staging-api.360living.ae/api/v1/docs/#) |
 
-| Field | Detail |
-|-------|--------|
-| **Product** | **Video/rushes** hosting API using **B2** |
-| **Stack** | **Express**, **backblaze-b2**, **Supabase** JS client, **Socket.io**, multer/busboy, **fluent-ffmpeg**, helmet, rate-limit |
+**Hosting notes:** Web is set up for **AWS Amplify** (and can also go to Vercel or any Node host); API runs behind **nginx** with PM2 per backend deploy docs.
 
----
+### Additional live products
 
-### B14. Barbershop Level Up — `barbershop-level-up/`
+| Product | Live link(s) |
+|---|---|
+| **BridgeBond (production)** | [admin.bridgebond.ai](https://admin.bridgebond.ai) · [user.bridgebond.ai](https://user.bridgebond.ai) · [super-admin.bridgebond.ai](https://super-admin.bridgebond.ai) · [api.bridgebond.ai/v1](https://api.bridgebond.ai/v1) |
+| **BridgeBond (staging)** | [staging-admin.bridgebond.ai](https://staging-admin.bridgebond.ai) · [staging-user.bridgebond.ai](https://staging-user.bridgebond.ai) · [staging-api.bridgebond.ai/v1](https://staging-api.bridgebond.ai/v1) |
+| **Babu ISP** | [babu-isp.vercel.app](https://babu-isp.vercel.app/) |
+| **Oono** | [oono.ai](https://oono.ai) |
+| **Orum Training (website)** | [orumtraining.com](https://www.orumtraining.com/) |
+| **Orum Training (iOS app)** | [App Store](https://apps.apple.com/us/app/orum-training/id1607905730) |
+| **Enigmatix OMS** | [oms.enigmatix.co/login](https://www.oms.enigmatix.co/login) |
 
-| Field | Detail |
-|-------|--------|
-| **Product** | Salon **levelup-salon** web app |
-| **Stack** | **Next.js 14**, **NextAuth**, **MongoDB/Mongoose**, Radix, react-hook-form + zod, seed scripts |
-
----
-
-### B15. Claude Telegram bot (repository name) — `claude-telegram-bot/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | Next app with **mobile wrapper** and document tooling |
-| **Stack** | **Next.js 14**, **Prisma 7** + **better-sqlite3**, **NextAuth** Prisma adapter, **Capacitor** Android, **react-pdf / jsPDF / html2canvas**, Zustand |
+**Notes:**
+- **Oono**: interactive AI stories for lead generation and conversion growth.
+- **Orum Training**: all-in-one fitness app (diet tracking, exercise plans, social).
+- **Enigmatix OMS**: office management platform for HR, salary, attendance, punch in/out, expenses, projects, and profiles.
 
 ---
 
-### B16. Crane / Fortix — `crane_app_react/`
+## Collaboration
 
-| Field | Detail |
-|-------|--------|
-| **Product** | **White-label** Expo app (**Crane** vs **Fortix** via env) |
-| **Stack** | **Expo**, **React Native Firebase** (app, auth, firestore, storage), hook-form + zod, native document pickers |
-
----
-
-### B17. Atlas — `atlas-mobile-app-final-main/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Two** RN apps: **Atlas** + **AtlasEmployee** |
-| **Stack** | **React Native 0.80**, **React 19**, **Firebase** app + messaging, **Notifee**, React Navigation native stack |
+I'm open to collaborating on:
+- Mobile-first products with complex workflows
+- Full-stack SaaS platforms
+- Real-time systems and integration-heavy projects
+- Product rebuilds focused on performance and maintainability
 
 ---
 
-### B18. GetIn Scanner — `Sacnneer App/`
+## Connect with me
 
-| Field | Detail |
-|-------|--------|
-| **Product** | Scanner **Flutter** client + **TypeScript API** |
-| **GetIn-ScannerApp** | **Flutter** (`pubspec.yaml`) |
-| **Getin-Scanner-be** | **Express**, **TypeScript**, **Prisma**, tsx, PM2-friendly build copy |
+[![GitHub](https://img.shields.io/badge/GitHub-333333?style=for-the-badge&logo=github&logoColor=white)](https://github.com/Adil7767)
+[![LinkedIn](https://img.shields.io/badge/LinkedIn-0077B5?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/adilmustafa7767/)
 
----
-
-### B19. Workli — `BD/workli-main/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Expo** app with location and notifications |
-| **Stack** | **Expo 54**, **Expo Router 6**, **React 19**, **Supabase**, maps, **expo-notifications**, **i18next**, hook-form + zod |
+📧 **Email:** [dev.adil786@gmail.com](mailto:dev.adil786@gmail.com)
 
 ---
 
-### B20. LabelMates — `BD/LabelMatesCde/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Vite** SPA — retail/label **scanning** orientation (barcode/OCR libs in deps) |
-| **Stack** | **Vite**, React, TypeScript, **shadcn/Radix**, **Supabase**, TanStack Query, **Stripe** |
-
----
-
-### B21. AUOST — `BD/AUOST APP/`
-
-| Field | Detail |
-|-------|--------|
-| **auost-main** | **Flutter** |
-| **auost-main-2** | **Vite + React** (template-era README) |
-
----
-
-### B22. Plateforme de recrutement — `Platefomre-de-recrutement_Mohamed/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | Full **recruitment** platform (matching, messaging, payments, gamification, NGO module — per README) |
-| **Stack** | **Django 5.2**, **Channels** + **Redis**, **Celery**, **PostgreSQL** (prod) / SQLite dev, **Stripe**, Cloudinary, django-allauth, large Python stack |
-
----
-
-### B23. AdArt / FineArt — `Personal/adart-updated/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **React Native** client + **Django** API |
-| **Stack** | RN CLI, navigation, Android Gradle; **FineArt-Backend** Django (`manage.py` workflows in npm scripts); **Gemfile** for Ruby tooling |
-
----
-
-### B24. Kinetic Koach — `KineticKoach-project/KineticKoach/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Flutter** app (`kinetic_koach_mine`) |
-| **Stack** | Dart 3.8+, GetX, flutter_svg, etc.; **Firebase functions** package under project |
-
----
-
-### B25. MyBackend — `MyBackend/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Starter** Express API (GitHub-style boilerplate name in package.json) |
-| **Stack** | Express, **MongoDB/Mongoose**, nodemon |
-
----
-
-### B26. Next.js Boilerplate — `Next-js-Boilerplate-main/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | Opinionated **Next 16** starter (author field references your GitHub handle in manifest) |
-| **Stack** | Next 16, **Turbopack** dev, React 19, TanStack Query, Radix, react-hook-form + zod, next-themes, Husky |
-
----
-
-### B27. demo — `demo/`
-
-| Field | Detail |
-|-------|--------|
-| **Product** | **Next** app with **Drizzle** migrations & seeds |
-| **Stack** | **Next 16**, React 19, **Drizzle** + **pg**, **Supabase** clients, QRCode.react, scripts for migrate/seed |
-
----
-
-### B28. Nested experiment — `BD/07ba4202-df52-45bd-a303-3a7011452d2b (1)/`
-
-| Field | Detail |
-|-------|--------|
-| **Note** | Folder contains **root + backend** `package.json` — treat as imported **Node** experiment or client deliverable; describe in interviews if you shipped it |
-
----
-
-## C. What to exclude from “your projects” on a CV
-
-- **`flutter/`** at repo root if it is the **official Flutter SDK** (thousands of `pubspec` files) — not a personal app.  
-- **`.zip` archives**, **`dump/`**, empty shells — unless you actively develop them.  
-
----
-
-## Education & certifications
-
-- *(Degree, institution, year)*  
-- *(Certifications)*  
-
----
-
-## Languages
-
-- *(e.g. English — professional; Urdu — native)*  
-
----
-
-## File usage
-
-1. Edit **contact**, **dates**, and **contributors’ names** where you want specificity.  
-2. Remove **B28** or any folder you did not lead.  
-3. Never commit **`.env`** or live secrets.  
-
----
-
-*Last update: April 2026 — structured for Adil Mustafa; solo lead framing per your instructions; contributors noted where repos are shared.*
+*Crafted with ❤️ by Adil Mustafa*
